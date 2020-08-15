@@ -93,15 +93,12 @@ references:
       only_for_branches: master
 
 jobs:
-  test:
+  foo:
     <<: *load_image
     <<: *env_vars_test
     steps:
-      - checkout
-      - << : *install_dependencies
-      - << : *get_crawler_yml_files
-      - << : *build_bundle_jekyll
-      - << : *notify_on_failure
+      - run:
+          command: echo foo
 
   build_and_deploy_gh_pages:
     <<: *load_image
@@ -119,34 +116,8 @@ orbs:
   slack: circleci/slack@3.4.2
 
 workflows:
-  # Every night, deploy to VMs and to gh-pages
-  # to make sure latest data are shown
-  daily-build-and-deploy:
-    triggers:
-      - schedule:
-          cron: "0 6 * * *"
-          filters:
-            branches:
-              only:
-                - master
-    jobs:
-      - build_and_deploy_gh_pages
-  # For any branch other than master,
-  # run CI tests at each commit
-  on-commit-test:
-    jobs:
-      - test:
-          filters:
-            branches:
-              ignore:
-                - master
-                - gh-pages
   # For each commit on the master branch
   # deploy to VMs and to gh-pages
   on-commit-build-and-deploy:
     jobs:
-      - build_and_deploy_gh_pages:
-          filters:
-            branches:
-              only:
-                - master
+      - foo
