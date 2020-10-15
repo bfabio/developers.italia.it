@@ -1,0 +1,29 @@
+name: Lighthouse CI
+on: ["push", "pull_request"]
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Waiting for the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1
+        with:
+          site_name: "developers-italia"
+          max_timeout: 60
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v3
+        with:
+          urls: |
+            https://developers-italia.netlify.com
+            https://developers-italia.netlify.com/it/software
+            https://developers-italia.netlify.com/en/software
+          netlifySite: 'developers-italia.netlify.com'
+          applicationGithubToken: ${{ secrets.GITHUB_TOKEN }}
+          personalGithubToken: ${{ secrets.GITHUB_TOKEN_PERMISSIONS }}
+          # budgetPath: ../lighthouse/budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
