@@ -706,7 +706,7 @@ esDevelopersItaliaQuery.prototype.esSearchSuccessCallback = function (response) 
     $intro.html('');
 
     // hide sort by and results hits
-    hideSortingResultsDiv(true);
+    // hideSortingResultsDiv(true);
 
     // recreate empty template
     $('.intro > .intro-empty').html(this.templates.empty({
