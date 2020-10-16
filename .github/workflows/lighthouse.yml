@@ -15,7 +15,7 @@ jobs:
           # site_name: "developers-italia"
           #
           site_name: "adoring-lalande-cb9e63"
-          max_timeout: 60
+          max_timeout: 600
       - name: Run Lighthouse
         uses: treosh/lighthouse-ci-action@v3
         with:
