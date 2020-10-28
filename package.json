@@ -36,6 +36,8 @@
         "copy-webpack-plugin": "^6.1.0",
         "css-loader": "^4.2.1",
         "cssnano": "^4.1.10",
+        "danger": "^10.5.0",
+        "danger-plugin-conventional-commitlint": "^1.0.4",
         "eslint": "^7.8.1",
         "eslint-plugin-json": "^2.1.2",
         "file-loader": "^6.0.0",
