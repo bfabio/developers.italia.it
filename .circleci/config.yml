@@ -98,6 +98,7 @@ jobs:
 
 orbs:
   slack: circleci/slack@3.4.2
+  publiccode-parser: bfabio/publiccode-parser@0.0.1
 
 workflows:
   # Every night, deploy to VMs and to gh-pages
@@ -116,6 +117,7 @@ workflows:
   # run CI tests at each commit
   on-commit-test:
     jobs:
+      - publiccode-parser/validate
       - test:
           filters:
             branches:
