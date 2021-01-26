@@ -1,0 +1,32 @@
+name: Lighthouse CI
+on: pull_request
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node 12
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - name: Waiting for the Netlify Preview
+        uses: jakepartusch/wait-for-netlify-action@v1
+        with:
+          # site_name: "developers-italia"
+          #
+          site_name: "adoring-lalande-cb9e63"
+          max_timeout: 600
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v3
+        with:
+          urls: |
+            https://adoring-lalande-cb9e63.netlify.com
+            https://adoring-lalande-cb9e63.netlify.com/it/software
+            https://adoring-lalande-cb9e63.netlify.com/en/software
+          # netlifySite: 'developers-italia.netlify.com'
+          netlifySite: 'adoring-lalande-cb9e63.netlify.com'
+          applicationGithubToken: ${{ secrets.GITHUB_TOKEN }}
+          personalGithubToken: ${{ secrets.GITHUB_TOKEN_PERMISSIONS }}
+          # budgetPath: ../lighthouse/budget.json
+          uploadArtifacts: true
+          temporaryPublicStorage: true
