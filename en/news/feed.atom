@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://developers.italia.it/en/news/feed.atom</id>
+  <title>Developers Italia</title>
+  <updated>2022-03-15T17:51:26+00:00</updated>
+
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <link href="https://developers.italia.it/en/news/feed.atom" rel="self" type="application/atom+xml"/>
+  <link href="https://developers.italia.it/" rel="alternate" type="text/html"/>
+  <subtitle>We develop public services, together</subtitle>
+  <icon>/assets/icons/favicon.ico</icon>
+  <logo>/assets/icons/logo-it.svg</logo>
+
+  <author>
+    <name>Dipartimento per la Trasformazione Digitale e AgID</name>
+  </author>
+  <entry xml:lang="en">
+    <id>https://developers.italia.it/en/news/2021/09/29/developers-italia-pioneering-initiative-competitive-europe</id>
+    <title>Developers Italia: pioneering initiative for an independent and competitive digital Europe</title>
+    <updated>2021-09-29T08:00:00+00:00</updated>
+
+    <summary>European Commission study highlights the impact of open source software and hardware on the EU economy </summary>
+    <content type="html" xml:base="https://developers.italia.it/en/news/2021/09/29/developers-italia-pioneering-initiative-competitive-europe">&lt;p&gt;&lt;strong&gt;Developers Italia&lt;/strong&gt; is one of the strategic initiatives for the promotion of open source public policies in Europe. A &lt;a href=&quot;https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and&quot;&gt;European Commission study&lt;/a&gt;, published by &lt;a href=&quot;https://ec.europa.eu/info/departments/communications-networks-content-and-technology_en&quot;&gt;DG CONNECT&lt;/a&gt;, shows that open source plays a key role in European development. Using only open source software instead of proprietary software can foster the independence of the public sector in the EU, reducing costs and limiting the lock-in. Therefore, according to the Commission, &lt;strong&gt;open source is the key to a more autonomous and technologically sovereign European Union&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;The figures speak volumes: according to the study, in 2018, companies located in the EU area invested around €1 billion in open source software (OSS), resulting in an impact on the eurozone economy estimated at between €65 and 95 billion. In addition, a 10% increase in OSS investment could contribute to the creation of more than 600 new start-ups in the EU, generating a GDP increase of €100 billion.&lt;/p&gt;
+
+&lt;p&gt;Moreover, due to the generation of know-how and increased competitiveness in general, the study estimates that every euro invested in open source development generates a GDP benefit of at least four euros.&lt;/p&gt;
+
+&lt;p&gt;In light of these data, the study contains recommendations for European countries to further promote open source both at a political and economic level. Italy has not stood idle: in our country, &lt;strong&gt;the point of reference for Public Administration software is Developers Italia&lt;/strong&gt;, thanks to which the provisions of the &lt;a href=&quot;https://www.agid.gov.it/it/agenzia/strategia-quadro-normativo/codice-amministrazione-digitale&quot;&gt;Digital Administration Code&lt;/a&gt; on open source find concrete support.&lt;/p&gt;
+
+&lt;p&gt;Developers Italia’s role as a strategic control room for Public Administration software will be central to ensuring quality and compliance with European best practices, including investment in open source, during the software selection or creation phases of projects under the PNRR.&lt;/p&gt;
+
+&lt;p&gt;We are proud of what we have done so far and look forward to an increasingly “Open” future.&lt;/p&gt;
+
+&lt;p&gt;Read &lt;a href=&quot;https://innovazione.gov.it/notizie/articoli/il-valore-dell-open-source-per-un-europa-digitale-indipendente-e-competitiva/&quot;&gt;the full article&lt;/a&gt; on the Department for digital transformation website.&lt;/p&gt;</content>
+    <published>2021-09-29T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="designers" />
+    
+    <category term="opensource" />
+    
+    <category term="riuso" />
+    
+
+    <author>
+      <name>Francesco Pognante</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="en">
+    <id>https://developers.italia.it/en/news/2021/04/19/working-to-make-our-lives-better</id>
+    <title>Working to make our lives better</title>
+    <updated>2021-04-19T09:00:00+00:00</updated>
+
+    <summary>Developers Italia will participate to the ISA² closing event </summary>
+    <content type="html" xml:base="https://developers.italia.it/en/news/2021/04/19/working-to-make-our-lives-better">&lt;p&gt;Also Developers Italia will participate in the international event “&lt;a href=&quot;https://digitallpublic.eu/&quot;&gt;Working to make our lives better&lt;/a&gt;” which will be held online on the 20th, 21th and 22nd of April.&lt;/p&gt;
+
+&lt;p&gt;This is the final event of the &lt;a href=&quot;https://ec.europa.eu/isa2/isa2_en&quot;&gt;ISA²&lt;/a&gt; European programme. The initiative, managed by the European Commission’s DG DIGIT, supports the development of digital solutions that enable public administrations, businesses and citizens in Europe to benefit from &lt;strong&gt;interoperable cross-border and cross-sector public services&lt;/strong&gt;. Thanks to the collaboration of Member States, the programme has helped to create shared public services for citizens, provided free interoperable solutions to businesses and connected various organisations in different sectors.&lt;/p&gt;
+
+&lt;p&gt;The conference will be an opportunity to review successes in the digital transformation of public services across the EU and celebrate the next step in this journey by looking ahead to Europe’s digital future and launching the new ‘Digital Europe’ programme.&lt;/p&gt;
+
+&lt;p&gt;With over 1500 participants already registered, the event is organised in more than 30 sessions, and will provide an opportunity to take part in discussions on innovation and GovTech, interoperability, open source, smart cities, trust and security. It will host numerous European and international guests from institutions, Member States and industry, including Developers Italia, which will be present on Wednesday the 21st of April at 10.45 am in the session “&lt;a href=&quot;https://digitallpublic.eu/agenda/&quot;&gt;The role of open source in the public sector&lt;/a&gt;”.&lt;/p&gt;
+
+&lt;p&gt;If you are interested you can attend the event by registering at the following &lt;a href=&quot;https://digitallpublic.app.swapcard.com/event/digitall-public/planning/UGxhbm5pbmdfMzUzNTA3&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;</content>
+    <published>2021-04-19T09:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="opensource" />
+    
+
+    <author>
+      <name>Michela Gabrieli</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="en">
+    <id>https://developers.italia.it/en/news/2019/03/07/developers-italia-at-google-summer-of-code-2019</id>
+    <title>Developers Italia at the Google Summer of Code 2019</title>
+    <updated>2019-03-07T11:00:00+00:00</updated>
+
+    <summary>Developers Italia participates to the Google summer program dedicated to students who want to get involved. Here you can find how to apply </summary>
+    <content type="html" xml:base="https://developers.italia.it/en/news/2019/03/07/developers-italia-at-google-summer-of-code-2019">&lt;p&gt;&lt;a href=&quot;https://developers.italia.it/&quot;&gt;Developers Italia&lt;/a&gt; has been selected as an org
+adhering to the &lt;a href=&quot;https://summerofcode.withgoogle.com/&quot;&gt;2019 edition of the Google Summer of
+Code&lt;/a&gt;. Thanks to the &lt;strong&gt;summer camp
+promoted by Google&lt;/strong&gt;, students from all over the world will be able to
+contribute to the open source projects of the Developers
+Italia team supported by a group of mentors.&lt;/p&gt;
+
+&lt;h2 id=&quot;google-summer-of-code-what-is-it-about&quot;&gt;Google Summer of Code, what is it about&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Google Summer of Code&lt;/strong&gt; is not an internship but, instead, it is a summer
+program dedicated to university students from all over the world. The program allows
+admitted students to work for three months on open source projects
+from one of the 206 accepted organizations, among which you can find &lt;a href=&quot;https://summerofcode.withgoogle.com/organizations/5088529877565440/&quot;&gt;the
+Developers Italia
+community&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Selected students will receive a &lt;strong&gt;grant&lt;/strong&gt; and the &lt;strong&gt;coaching support of
+a mentor&lt;/strong&gt; during all the GSoC period. The objective is to enrich the open
+source development skills and also to take place in the community activities.
+In our case, this means &lt;strong&gt;contributing with ideas&lt;/strong&gt; to improve the citizens’
+lives!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Read more:&lt;/strong&gt; &lt;a href=&quot;https://summerofcode.withgoogle.com/get-started/&quot;&gt;Requirements to get accepted in the
+program&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-participate&quot;&gt;How to participate&lt;/h2&gt;
+
+&lt;p&gt;Thanks to the GSoC program, the last year two students, Lorenzo Soligo and
+Rugantio Costa, could contribute to some &lt;strong&gt;Developers Italia open source
+projects&lt;/strong&gt;, working in particular on the &lt;a href=&quot;https://teamdigitale.governo.it/it/projects/daf.htm&quot;&gt;Data &amp;amp; Analytics
+Framework&lt;/a&gt;, the Digital
+Transformation Team’s project aimed at developing a portal dedicated to Italian
+public open data.&lt;/p&gt;
+
+&lt;p&gt;If you want to participate at this year’s edition of the program you can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;find a project to work on, picking from the &lt;a href=&quot;https://developers.italia.it/en/gsoc-ideas/&quot;&gt;proposed ideas
+list&lt;/a&gt; on Developers Italia or
+proposing &lt;strong&gt;your own development idea&lt;/strong&gt; (the last point of the list);&lt;/li&gt;
+  &lt;li&gt;prepare your application, also asking for help to our mentors through the
+&lt;a href=&quot;https://slack.developers.italia.it/&quot;&gt; Developers Italia slack channel&lt;/a&gt;;&lt;/li&gt;
+  &lt;li&gt;send your proposal to the GSoC 2019 program &lt;strong&gt;before Aprile 9th 2019&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In order to carry out a useful and successful application, we suggest you to be
+proactive, propose solutions to issues, write some documentation and
+in particular… show your skills!&lt;/p&gt;
+
+&lt;p&gt;We are waiting for your proposals,&lt;/p&gt;
+
+&lt;p&gt;the Developers Italia Team&lt;/p&gt;</content>
+    <published>2019-03-07T11:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="daf" />
+    
+    <category term="api" />
+    
+    <category term="designers" />
+    
+    <category term="gsoc" />
+    
+
+    <author>
+      <name>Leonardo Favario</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="en">
+    <id>https://developers.italia.it/en/news/2018/05/23/a-testing-environment-for-anpr</id>
+    <title>An open testing environment for ANPR</title>
+    <updated>2018-05-23T09:00:00+00:00</updated>
+
+    <summary>From now on everyone can develop clients interfacing with the national registry </summary>
+    <content type="html" xml:base="https://developers.italia.it/en/news/2018/05/23/a-testing-environment-for-anpr">&lt;p&gt;We released the &lt;strong&gt;source code and the credentials&lt;/strong&gt; to access the testing
+environment of the National Resident Population Register
+(&lt;a href=&quot;https://teamdigitale.governo.it/en/projects/anpr.htm&quot;&gt;ANPR&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;This is an important step for the development of the &lt;strong&gt;national register&lt;/strong&gt;,
+since it allows every developer to work independently on the ANPR integration,
+even without requiring municipality credentials.&lt;/p&gt;
+
+&lt;p&gt;In fact, from this moment &lt;a href=&quot;https://anpr-test.bobuild.com/request&quot;&gt;a page&lt;/a&gt; where
+to request ANPR test credentials is made available. Thanks to these
+credentials and the &lt;a href=&quot;https://github.com/italia/anpr-client-example&quot;&gt;sharing of a test client source
+code&lt;/a&gt;, starting today anyone may
+develop a client which interfaces with ANPR, using a &lt;strong&gt;fictional test
+municipality&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a real opening which will allow to accelerate the proliferation of the
+registry and the services that integrate with it on the national territory.&lt;/p&gt;
+
+&lt;h6 id=&quot;insights&quot;&gt;Insights:&lt;/h6&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://teamdigitale.governo.it/en/projects/anpr.htm&quot;&gt;All the ANPR numbers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://anpr.interno.it/portale/guida-anpr&quot;&gt;Municipality guide to ANPR&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;See you soon!&lt;/p&gt;
+
+&lt;p&gt;The Developers Italia Team&lt;/p&gt;</content>
+    <published>2018-05-23T09:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="opensource" />
+    
+    <category term="anpr" />
+    
+
+    <author>
+      <name>Francesco De Augustinis</name>
+    </author>
+  </entry>
+  
+</feed>
