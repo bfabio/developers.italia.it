@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
 
 jobs:
@@ -42,17 +42,24 @@ jobs:
       - run: scripts/pa11y.sh
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx --disable-external
 
+      - uses: actions/upload-artifact@v3
+        with:
+          name: site
+          path: _site/
 
-  build_and_publish_docker_image:
+  publish:
     needs: test
 
     runs-on: ubuntu-latest
-    env:
-      IMAGE: italia/developers-italia-onboarding
 
     if: ${{ github.event_name != 'pull_request' }}
     steps:
-      # - run: make build
+      - uses: actions/checkout@master
+
+      - uses: actions/download-artifact@v3
+        with:
+          name: site
+          path: _site/
 
       - run: cp -r .well-known _site/
 
@@ -60,5 +67,9 @@ jobs:
         # we built with our own Jekyll. This includes dotfiles.
       - run: touch _site/.nojekyll
 
-      - run: >
+      - run: npm ci
+      - run: |
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- --dotfiles -m "Automated deployment: ${GITHUB_SHA} [ci skip]"
+        env:
+           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
