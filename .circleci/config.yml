@@ -91,7 +91,6 @@ references:
         # we built with our own Jekyll. This includes dotfiles.
         touch _site/.nojekyll
 
-        echo developers.italia.it > _site/CNAME
         npm run deploy -- --dotfiles -m "Automated deployment: ${CIRCLE_SHA1} [ci skip]"
 
   # In order to use this, the integration needs to be
