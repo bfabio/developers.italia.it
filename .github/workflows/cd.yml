@@ -7,7 +7,6 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      JEKYLL_ENV: "production"
       NOKOGIRI_USE_SYSTEM_LIBRARIES: "true"
       ELASTICSEARCH_URL: "" # Disable searchyll for test.
 
@@ -24,18 +23,21 @@ jobs:
           ruby-version: '2.6'
           bundler-cache: true
 
-      - run: sudo apt-get install -y \
-               wget gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2 \
-               libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0 \
-               libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0 \
-               libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1 \
-               libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1 \
-               libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3 \
+      - run: sudo apt-get install -y
+               wget gconf-service libasound2 libatk1.0-0 libc6 libcairo2 libcups2
+               libdbus-1-3 libexpat1 libfontconfig1 libgcc1 libgconf-2-4 libgdk-pixbuf2.0-0
+               libglib2.0-0 libgtk-3-0 libnspr4 libpango-1.0-0 libpangocairo-1.0-0
+               libstdc++6 libx11-6 libx11-xcb1 libxcb1 libxcomposite1 libxcursor1
+               libxdamage1 libxext6 libxfixes3 libxi6 libxrandr2 libxrender1 libxss1
+               libxtst6 ca-certificates fonts-liberation libappindicator1 libnss3
                lsb-release xdg-utils
 
+      - run: npm ci
       - run: npm run test
+
+      - run: make download-data
+      - run: make jekyll-build
       - run: npm run lint
-      - run: make build-test
 
       - run: scripts/pa11y.sh
       - run: bundle exec htmlproofer ./_site --assume-extension --check-html --allow-hash-href --empty-alt-ignore --only-4xx --disable-external
@@ -50,19 +52,7 @@ jobs:
 
     if: ${{ github.event_name != 'pull_request' }}
     steps:
-      - run: make build
-      - name: Login to DockerHub
-        uses: docker/login-action@v1
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-      - name: Get Docker image tags
-        run: |
-          TAGS=${IMAGE}:$(echo ${GITHUB_REF##*/})
-          TAGS="$TAGS,${IMAGE}:${GITHUB_SHA::8}"
-
-          echo "TAGS=${TAGS}" >> $GITHUB_ENV
+      # - run: make build
 
       - run: cp -r .well-known _site/
 
@@ -70,4 +60,5 @@ jobs:
         # we built with our own Jekyll. This includes dotfiles.
       - run: touch _site/.nojekyll
 
-      - run: npm run deploy -- --dotfiles -m "Automated deployment: ${CIRCLE_SHA1} [ci skip]"
+      - run: >
+          npm run deploy -- --dotfiles -m "Automated deployment: ${GITHUB_SHA} [ci skip]"
