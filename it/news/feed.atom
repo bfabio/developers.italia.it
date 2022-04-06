@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
   <id>https://developers.italia.it/it/news/feed.atom</id>
   <title>Developers Italia</title>
-  <updated>2022-03-15T20:22:46+00:00</updated>
+  <updated>2022-04-06T16:51:27+00:00</updated>
 
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <link href="https://developers.italia.it/it/news/feed.atom" rel="self" type="application/atom+xml"/>
@@ -14,6 +14,220 @@
   <author>
     <name>Dipartimento per la Trasformazione Digitale e AgID</name>
   </author>
+  <entry xml:lang="it">
+    <id>https://developers.italia.it/it/news/2022/04/05/guida-software-libero</id>
+    <title>Guida allo sviluppo e gestione di software libero</title>
+    <updated>2022-04-05T08:00:00+00:00</updated>
+
+    <summary>Pubblicato il documento che insegna come utilizzare, sviluppare e gestire correttamente il software libero nella sfera pubblica </summary>
+    <content type="html" xml:base="https://developers.italia.it/it/news/2022/04/05/guida-software-libero">&lt;p&gt;Con l’ultimo aggiornamento, Developers Italia ha &lt;a href=&quot;https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/index.html&quot;&gt;pubblicato su Docs Italia&lt;/a&gt; la versione completa della &lt;strong&gt;Guida allo sviluppo e gestione di software libero&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;La guida, realizzata da Developers Italia in collaborazione con la community, è una raccolta di buone pratiche utili a supportare le amministrazioni pubbliche nello sviluppo e gestione del software e delle politiche a esso connesse. È suddivisa in &lt;strong&gt;tre capitoli&lt;/strong&gt;, dedicati alle specifiche categorie professionali che lavorano con il software della PA: i responsabili e le responsabili politiche, le amministratrici e gli amministratori pubblici, gli sviluppatori e le sviluppatrici. Ciascun capitolo contiene indicazioni e consigli pratici su &lt;strong&gt;come gestire e sviluppare correttamente il software in modo aperto&lt;/strong&gt;, come adottarlo seguendo le buone pratiche e quali sono gli accorgimenti più importanti per il mondo pubblico.&lt;/p&gt;
+
+&lt;h2 id=&quot;perché-una-guida-per-il-software-libero&quot;&gt;Perché una guida per il software libero&lt;/h2&gt;
+
+&lt;p&gt;Il &lt;a href=&quot;https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2021-07-30/index.html&quot;&gt;Codice dell’Amministrazione Digitale&lt;/a&gt; (CAD) impone alle pubbliche amministrazioni di &lt;strong&gt;adottare software libero ogni qual volta sia possibile&lt;/strong&gt;. L’eventuale non adozione deve essere adeguatamente motivata da un atto formale depositato e protocollato all’interno della «&lt;a href=&quot;https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/stabile/acquisizione-software/valutazione-comparativa.html&quot;&gt;valutazione comparativa&lt;/a&gt;».
+Lo scopo di questa guida è quindi aiutare le Pubbliche Amministrazioni italiane a rispettare questo requisito offrendo soluzioni pratiche apprese sul campo.&lt;/p&gt;
+
+&lt;h2 id=&quot;per-le-responsabili-politiche-e-i-responsabili-politici&quot;&gt;Per le responsabili politiche e i responsabili politici&lt;/h2&gt;
+
+&lt;p&gt;I soggetti coinvolti nella definizione delle politiche e delle regole applicate nello sviluppo di servizi e soluzioni software per la PA hanno la necessità di essere al corrente dei vantaggi e caratteristiche del software libero. Il &lt;a href=&quot;https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/per-le-responsabili-politiche-e-i-responsabili-politici.html&quot;&gt;capitolo&lt;/a&gt; dedicato illustra come gestire correttamente il software libero, quali sono i suoi requisiti di trasparenza, responsabilità e verificabilità e come metterli in pratica.&lt;/p&gt;
+
+&lt;h2 id=&quot;per-le-amministratrici-e-gli-amministratori&quot;&gt;Per le amministratrici e gli amministratori&lt;/h2&gt;
+
+&lt;p&gt;I referenti delle amministrazioni pubbliche per la gestione dei progetti  garantiscono l’esecuzione nel rispetto dei tempi e costi previsti, si relazionano con gli &lt;em&gt;stakeholder&lt;/em&gt; e sono responsabili dei servizi pubblici una volta rilasciati. In questo &lt;a href=&quot;https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/per-gli-amministratori-pubblici.html&quot;&gt;capitolo&lt;/a&gt;, la guida mostra  i vantaggi del modello open source per migliorare la qualità e la sicurezza dei prodotti finali e per ridurre costi e rischi. Questa sezione definisce le fasi di rilascio di un software open source, inclusa la scelta della piattaforma, e contiene indicazioni e modelli su come progettare l’interazione tra i vari &lt;em&gt;stakeholder&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;per-le-sviluppatrici-e-gli-sviluppatori&quot;&gt;Per le sviluppatrici e gli sviluppatori&lt;/h2&gt;
+
+&lt;p&gt;Il lavoro di chi sviluppa software per la Pubblica Amministrazione ha un impatto diretto sulla qualità dei servizi offerti alla cittadinanza. La &lt;a href=&quot;https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/per-chi-sviluppa-il-software.html&quot;&gt;sezione&lt;/a&gt; della guida dedicata a queste figure professionali mostra come preparare il codice a contributi esterni, come aiutare a diminuire il debito tecnico e come imparare a mantenere il codice sotto controllo di versione grazie a degli strumenti di test automatizzati, la nota &lt;a href=&quot;https://medium.com/@Developers_Italia/come-e-perch%C3%A9-automatizzare-il-controllo-qualit%C3%A0-nello-sviluppo-software-aab21cf72751&quot;&gt;Continuous Integration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;per-contribuire&quot;&gt;Per contribuire&lt;/h2&gt;
+
+&lt;p&gt;La guida è disponibile e consultabile liberamente su &lt;a href=&quot;https://docs.italia.it/italia/developers-italia/guida-sviluppo-gestione-software-libero/it/stabile/index.html&quot;&gt;Docs Italia&lt;/a&gt;: qualsiasi contributo è benvenuto! Se vuoi parlarne, unisciti alla conversazione su &lt;a href=&quot;https://forum.italia.it/c/software-open-source-per-la-pa/49&quot;&gt;Forum Italia&lt;/a&gt; o invia i tuoi suggerimenti direttamente su &lt;a href=&quot;https://github.com/italia/guida-sviluppo-gestione-software-libero&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il Team di Developers Italia&lt;/p&gt;</content>
+    <published>2022-04-05T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="opensource" />
+    
+
+    <author>
+      <name>Francesco Pognante</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="it">
+    <id>https://developers.italia.it/it/news/2022/03/29/accessibilita-migliorata-con-bootstrap</id>
+    <title>Accessibilità migliorata con Bootstrap Italia 1.6, verso il rilascio di 2.0</title>
+    <updated>2022-03-29T08:00:00+00:00</updated>
+
+    <summary>In occasione del community lab del 23 marzo, abbiamo presentato gli ultimi aggiornamenti della libreria alla base di siti e servizi della PA </summary>
+    <content type="html" xml:base="https://developers.italia.it/it/news/2022/03/29/accessibilita-migliorata-con-bootstrap">&lt;p&gt;Una nuova tappa importante per il design system del Paese e per i servizi pubblici digitali: mercoledì 23 marzo, in occasione del community lab, due esperti del Dipartimento per la trasformazione digitale, Andrea Stagi, open source project leader, e Daniele Tabellini, UI/UX Designer, hanno fatto il punto sugli sviluppi di &lt;strong&gt;Bootstrap Italia 2.0&lt;/strong&gt;, nuovo tema di Bootstrap 5, e presentato &lt;strong&gt;Bootstrap Italia 1.6&lt;/strong&gt;, l’ultimo rilascio basato sul tema di Bootstrap 4.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bootstrap Italia&lt;/strong&gt; è uno dei tasselli fondamentali del &lt;a href=&quot;https://designers.italia.it/notizie/Per-un-2022-ricco-di-sfide/&quot;&gt;design system del Paese&lt;/a&gt;, e contribuisce a creare servizi e siti più coerenti, familiari e usabili per le persone.&lt;/p&gt;
+
+&lt;p&gt;Durante l’incontro, seguito da 150 persone, Andrea e Daniele hanno sottolineato che gran parte delle migliorie e funzionalità legate alla versione 1.6 si concentrano proprio sull’&lt;strong&gt;accessibilità&lt;/strong&gt;, e sono state implementate e validate grazie alla collaborazione con Agenzia per l’Italia Digitale (&lt;strong&gt;AgID&lt;/strong&gt;).&lt;/p&gt;
+
+&lt;p&gt;Nello specifico, come illustrato nel &lt;em&gt;changelog&lt;/em&gt; (&lt;a href=&quot;https://github.com/italia/bootstrap-italia/releases/tag/v1.6.0&quot;&gt;note di rilascio&lt;/a&gt;), questa versione porta diversi cambiamenti su tutti i &lt;strong&gt;componenti interattivi principali&lt;/strong&gt;, come &lt;em&gt;form e header&lt;/em&gt;, e un aggiornamento sostanziale dei &lt;strong&gt;&lt;em&gt;carousel&lt;/em&gt;&lt;/strong&gt; con l’adozione del plug-in &lt;a href=&quot;https://splidejs.com/&quot;&gt;Splide&lt;/a&gt;, più facile da curare a livello di accessibilità. Queste modifiche sono anche propedeutiche al passaggio a &lt;strong&gt;Bootstrap Italia 2.0&lt;/strong&gt;, che vedrà un primo rilascio beta nella prima metà di aprile. Maggiori informazioni sui prossimi passi sono reperibili nel &lt;a href=&quot;https://designers.italia.it/piano-attivita/&quot;&gt;piano attività&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Bootstrap Italia 1.6 è disponibile partendo dalla sua &lt;a href=&quot;https://italia.github.io/bootstrap-italia&quot;&gt;documentazione&lt;/a&gt; o attraverso la sua &lt;a href=&quot;https://github.com/italia/bootstrap-italia/&quot;&gt;&lt;em&gt;repository&lt;/em&gt; GitHub&lt;/a&gt;, nella quale è possibile contribuire segnalando problemi e proponendo integrazioni. In attesa del consolidamento di Bootstrap Italia 2.0, il nostro invito è di &lt;strong&gt;aggiornare da subito a questa versione siti e servizi della Pubblica Amministrazione&lt;/strong&gt; che già utilizzano Bootstrap Italia per portare benefici significativi all’esperienza utente.
+Tutte le persone interessate a lasciare il segno nel design system del Paese possono contribuire allo sviluppo di Bootstrap Italia 2.0 sulla &lt;em&gt;repository&lt;/em&gt; &lt;a href=&quot;https://github.com/italia/bootstrap-italia-next&quot;&gt;GitHub di lavorazione&lt;/a&gt;, con l’obiettivo che i futuri progetti di siti e servizi della Pubblica Amministrazione utilizzino direttamente questa versione.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=dQVy8DLPJbY&quot;&gt;Guarda il video completo del community lab&lt;/a&gt;&lt;/strong&gt; sul canale YouTube del Dipartimento per la trasformazione digitale e &lt;a href=&quot;/assets/images/posts/2022-03-29/Community_lab.pdf&quot;&gt;scarica la presentazione&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Per saperne di più resta in contatto su &lt;a href=&quot;https://slack.developers.italia.it&quot;&gt;Slack&lt;/a&gt;, continua a seguirci sui canali Twitter di &lt;a href=&quot;https://twitter.com/DesignersITA&quot;&gt;Designers Italia&lt;/a&gt; e &lt;a href=&quot;https://twitter.com/developersITA&quot;&gt;Developers Italia&lt;/a&gt;.&lt;/p&gt;</content>
+    <published>2022-03-29T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="designers" />
+    
+    <category term="bootstrap" />
+    
+    <category term="agid" />
+    
+
+    <author>
+      <name>Michela Gabrieli</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="it">
+    <id>https://developers.italia.it/it/news/2022/03/25/community-call-sinergia-universita-pa</id>
+    <title>Community call: la sinergia possibile tra Università e Pubbliche amministrazioni</title>
+    <updated>2022-03-25T08:00:00+00:00</updated>
+
+    <summary>Il 6 aprile scopri come le Università possono contribuire alla trasformazione dei servizi pubblici digitali </summary>
+    <content type="html" xml:base="https://developers.italia.it/it/news/2022/03/25/community-call-sinergia-universita-pa">&lt;p&gt;Suona la campanella, iniziano le lezioni di design per la Pubblica amministrazione. La collaborazione tra l’Università e il mondo della PA può portare a &lt;strong&gt;risultati sorprendenti&lt;/strong&gt;: grazie a un accordo tra il Dipartimento per la trasformazione digitale e l’Università IUAV di Venezia, ad esempio, gli studenti del “Corso di laurea magistrale in Design del prodotto, della comunicazione e degli interni” hanno realizzato un &lt;a href=&quot;https://designers.italia.it/progetti/atlante-della-trasformazione-digitale/&quot;&gt;Atlante della trasformazione digitale della PA&lt;/a&gt;, frutto di progetto di ricerca dedicato alla mappatura degli &lt;strong&gt;ecosistemi dei servizi pubblici&lt;/strong&gt;. Ed è proprio sulla base di risultati come questo che Designers Italia intende promuovere il design nell’ambito pubblico e per il pubblico.&lt;/p&gt;
+
+&lt;p&gt;In questo momento di forte spinta data dalla trasformazione digitale della PA, la &lt;strong&gt;collaborazione con le Università può portare a un nuovo scenario di progettazione&lt;/strong&gt;, radicato nei principi di un approccio progettuale sistemico e utente-centrico. Il mondo del design, infatti, può cogliere l’occasione di considerare norme e procedure nel paradigma fondante della disciplina, affiancando la prospettiva della tecnologia e dell’economia (tipica del settore privato) con l’opportunità etica e normativa (peculiare del settore pubblico), e il punto di vista dell’utente-cittadino con quello delle istituzioni.&lt;/p&gt;
+
+&lt;p&gt;Consapevole del valore generato sia per le amministrazioni pubbliche sia per gli studenti della disciplina, Designers Italia intende così invitare &lt;strong&gt;professori, ricercatori, tesisti, studenti a entrare a far parte della community&lt;/strong&gt; e ad avere un ruolo attivo nella disseminazione della cultura progettuale nel settore pubblico.&lt;/p&gt;
+
+&lt;p&gt;Appuntamento dunque alla &lt;strong&gt;community call&lt;/strong&gt; di mercoledì &lt;strong&gt;6 aprile&lt;/strong&gt;, dove torneremo tra i banchi per parlare dell’Atlante della trasformazione digitale della PA e dare visibilità ad altri &lt;strong&gt;esempi virtuosi di collaborazione tra Università ed enti pubblici&lt;/strong&gt; nell’ambito della progettazione per la Pubblica Amministrazione, con l’obiettivo di raccontare le iniziative intraprese, ispirare interlocutori e, secondo una logica aperta, ampliare la conoscenza e le risorse sul tema.&lt;/p&gt;
+
+&lt;p&gt;Ti aspettiamo il &lt;strong&gt;6 aprile alle 15.30 &lt;a href=&quot;https://blue.meet.garr.it/b/ric-h2n-rc5-lkj&quot;&gt;a questo indirizzo&lt;/a&gt;!&lt;/strong&gt;&lt;/p&gt;</content>
+    <published>2022-03-25T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="designers" />
+    
+    <category term="universita" />
+    
+
+    <author>
+      <name>Michela Gabrieli</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="it">
+    <id>https://developers.italia.it/it/news/2022/03/18/come-eu-valuta-servizi-pubblici-digitali-egovernment-benchmark</id>
+    <title>Come l’Unione Europea valuta i servizi pubblici digitali: l’eGovernment Benchmark</title>
+    <updated>2022-03-18T08:00:00+00:00</updated>
+
+    <summary>Disponibile la registrazione della community call del 9 febbraio </summary>
+    <content type="html" xml:base="https://developers.italia.it/it/news/2022/03/18/come-eu-valuta-servizi-pubblici-digitali-egovernment-benchmark">&lt;p&gt;L’UE ha definito il decennio attuale il &lt;a href=&quot;https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age_it&quot;&gt;“decennio digitale” europeo&lt;/a&gt; e ha fissato una serie di parametri volti a misurare i progressi digitali dei Paesi membri. Lo scorso &lt;strong&gt;9 marzo&lt;/strong&gt;, durante la community call, abbiamo visto insieme il principale strumento che l’Unione usa per monitorare la qualità dei servizi pubblici digitali: l’&lt;em&gt;&lt;a href=&quot;https://www.capgemini.com/resources/egovernment-benchmark-2021/&quot;&gt;eGovernment Benchmark&lt;/a&gt;&lt;/em&gt;. Grazie al prezioso contributo dei nostri ospiti, inoltre, abbiamo scoperto come l’Italia può concretamente migliorare rispetto a tali parametri e progredire nella sua transizione digitale.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Daniela Battisti&lt;/strong&gt;, Responsabile delle relazioni internazionali nel Dipartimento per la trasformazione digitale, ha illustrato in breve gli strumenti con i quali la Commissione Europea monitora i progressi della trasformazione digitale dei Paesi membri, ovvero il &lt;a href=&quot;https://digital-strategy.ec.europa.eu/en/policies/desi&quot;&gt;DESI&lt;/a&gt; e l’&lt;em&gt;eGovernment Benchmark&lt;/em&gt;, nonché il ruolo dei &lt;em&gt;mystery shoppers&lt;/em&gt;, che hanno il compito di verificare i servizi pubblici di ogni Paese membro. Ha quindi spiegato quali sono gli obiettivi della Commissione nonché le ambizioni dell’Italia di entrare nel gruppo di testa europeo. Ha poi scomposto i vari indicatori e dimensioni dell’&lt;em&gt;eGovernment benchmark&lt;/em&gt;, mostrando come essi vengono misurati e valutati. In chiusura, ha illustrato una breve panoramica su come l’Italia può migliorare il suo posizionamento attraverso 10 accorgimenti, elaborati a partire dalla lista utilizzata dai &lt;em&gt;mystery shoppers&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Dimitri Tartari&lt;/strong&gt;, Responsabile dell’Agenda Digitale dell’Emilia-Romagna nel Gabinetto del Presidente e referente tecnico della Commissione Innovazione Tecnologica, ha offerto il suo punto di vista sulla trasformazione digitale e i rispettivi indicatori europei da parte di un’amministrazione territoriale. Ha illustrato le criticità incontrate dalla Regione nel processo di transizione digitale e le azioni concrete messe in campo, come ad esempio l’adozione di un metodo di &lt;a href=&quot;https://digitale.regione.emilia-romagna.it/dati-e-pubblicazioni/pubblicazioni/2021/2021&quot;&gt;misurazione comune&lt;/a&gt; della qualità dei servizi online e la creazione di &lt;a href=&quot;https://digitale.regione.emilia-romagna.it/comtem&quot;&gt;comunità tematiche dedicate&lt;/a&gt;, formate da cittadini e imprese.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Luca De Pietro&lt;/strong&gt;, Direttore dell’unità organizzativa Strategia ICT e Agenda Digitale di Regione del Veneto, è poi intervenuto per raccontare le dinamiche virtuose della sua Regione, soffermandosi sui punti di forza, gli elementi critici nonché gli aspetti di comunicazione: una rete di comunicatori del Veneto per co-creare insieme agli operatori  campagne di comunicazione e avvicinare così i servizi alle persone.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=flnYdZR5-9w&quot;&gt;Guarda il video&lt;/a&gt; della community call su YouTube&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;/assets/images/posts/2022-03-18/090222_Community_Call_Designers_Italia.pdf&quot;&gt;Scarica la presentazione della community call&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://innovazione.gov.it/progetti/attivita-internazionali/#unione-europea&quot;&gt;Scopri di più&lt;/a&gt; sulla Strategia Digitale Europea e sui relativi indici di digitalizzazione sul sito del Dipartimento per la trasformazione digitale.&lt;/strong&gt;&lt;/p&gt;</content>
+    <published>2022-03-18T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="designers" />
+    
+    <category term="eu" />
+    
+
+    <author>
+      <name>Francesco Pognante</name>
+    </author>
+  </entry>
+  
+  <entry xml:lang="it">
+    <id>https://developers.italia.it/it/news/2022/03/15/iniziano-lavori-SDK-SPID-CIE</id>
+    <title>Iniziano i lavori per gli SDK OpenID Connect unificati di SPID e CIE </title>
+    <updated>2022-03-15T08:00:00+00:00</updated>
+
+    <summary>Un importante avanzamento tecnologico che semplificherà la vita degli sviluppatori </summary>
+    <content type="html" xml:base="https://developers.italia.it/it/news/2022/03/15/iniziano-lavori-SDK-SPID-CIE">&lt;p&gt;Iniziano oggi i lavori su GitHub Italia per la realizzazione degli SDK (Software Development Kit) OpenID Connect dedicati al Sistema Pubblico di identità digitale (SPID) e alla Carta d’Identità Elettronica (CIE) per ben 5 linguaggi di programmazione!&lt;/p&gt;
+
+&lt;h3 id=&quot;di-cosa-si-tratta&quot;&gt;Di cosa si tratta?&lt;/h3&gt;
+
+&lt;p&gt;Un avanzamento tecnologico molto importante che ci consente di avvicinare l’esperienza utente di SPID e CIE a quella dei sistemi Single Sign-On privati più popolari e semplificare l’integrazione da parte di sviluppatori e DevOps. Il passaggio verso OpenID Connect ci consente di creare una federazione di identità all’avanguardia e di partecipare a un ecosistema moderno e ricco di strumenti utili.&lt;/p&gt;
+
+&lt;p&gt;Ma la novità più importante è che CIE e SPID sono sempre più vicini: i due profili infatti vengono unificati in una unica implementazione, semplificando enormemente la vita degli sviluppatori.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-dettagli&quot;&gt;I dettagli&lt;/h3&gt;
+
+&lt;p&gt;Gli SDK SPID/CIE OIDC sono pubblicati su GitHub Italia e resi pubblici, con licenza open source, sotto forma di repository e applicazioni installabili. Si tratta di applicazioni di tipo OpenID Connect Relying-Party, realizzate in stretta osservanza delle &lt;a href=&quot;https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_openid_connect_in_spid.pdf&quot;&gt;Linee Guida OpenID&lt;/a&gt; Connect in SPID. Ognuna di queste verrà sviluppata per uno dei seguenti linguaggi di programmazione:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;PHP&lt;/li&gt;
+  &lt;li&gt;Python (Django)&lt;/li&gt;
+  &lt;li&gt;Java (Spring)&lt;/li&gt;
+  &lt;li&gt;ASPnet Core&lt;/li&gt;
+  &lt;li&gt;Javascript (node.js)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ogni repository conterrà:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;l’applicazione installabile e riutilizzabile;&lt;/li&gt;
+  &lt;li&gt;una documentazione chiara, in lingua inglese, anche sotto forma di README, su come usare l’applicazione, eseguire le unità di test e contribuire al progetto;&lt;/li&gt;
+  &lt;li&gt;un progetto di esempio per scopi dimostrativi;&lt;/li&gt;
+  &lt;li&gt;una immagine docker che utilizza il progetto di esempio;&lt;/li&gt;
+  &lt;li&gt;una pipeline automatica di Continuous Integration (CI) con le unità di test;&lt;/li&gt;
+  &lt;li&gt;una pipeline automatica di CI con il tool ufficiale di Quality Assessment utilizzato nelle procedure di collaudo SPID e CIE;&lt;/li&gt;
+  &lt;li&gt;una copertura dei test sul codice non inferiore al 90%.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ci aspettiamo che gli SDK siano ultimati per metà aprile.&lt;/p&gt;
+
+&lt;p&gt;Vuoi contribuire attivamente al lavoro in corso e aiutarci a testarlo? Vuoi proporre un nuovo SDK per il tuo linguaggio di programmazione preferito? Raggiungici sul canale #spid-openid di &lt;a href=&quot;https://slack.developers.italia.it/&quot;&gt;Slack Developers&lt;/a&gt; e apri issues e pull requests su:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/italia/spid-cie-oidc-php&quot;&gt;https://github.com/italia/spid-cie-oidc-php&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/italia/spid-cie-oidc-aspnetcore&quot;&gt;https://github.com/italia/spid-cie-oidc-aspnetcore&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/italia/spid-cie-oidc-nodejs&quot;&gt;https://github.com/italia/spid-cie-oidc-nodejs&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/italia/spid-cie-oidc-java&quot;&gt;https://github.com/italia/spid-cie-oidc-java&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/italia/spid-cie-oidc-django&quot;&gt;https://github.com/italia/spid-cie-oidc-django&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ti aspettiamo!&lt;/p&gt;</content>
+    <published>2022-03-15T08:00:00+00:00</published>
+
+    
+    <category term="developers" />
+    
+    <category term="skd" />
+    
+    <category term="spid" />
+    
+    <category term="cie" />
+    
+
+    <author>
+      <name>Giuseppe de Marco</name>
+    </author>
+  </entry>
+  
   <entry xml:lang="it">
     <id>https://developers.italia.it/it/news/2022/03/11/Community-lab-scopriamo-Bootstrap-Italia-2.0</id>
     <title>Community lab: scopriamo Bootstrap Italia 2.0</title>
