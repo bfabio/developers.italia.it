@@ -6,7 +6,7 @@
     text="{{ t.newsletter_text | escape }}"
     args="{{ newsletterdata.args | jsonify | escape }}"
     extra-fields="{{ newsletterdata.extra_fields | jsonify | escape }}"
-    privacy="{{ site.data.footer_links.privacy[active_lang].url }}"
+    privacy="{{ site.data.footer_links.privacy[active_lang].url }}#mailing-list"
     lang="{{ active_lang }}"
     type="big"
     ></mailing-list-subscribe>
