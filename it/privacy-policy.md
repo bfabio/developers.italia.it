@@ -97,22 +97,6 @@ cui lo stesso è attivo. La base giuridica di tale trattamento è da rinvenirsi
 nei compiti istituzionali volti a favorire la conoscenza delle iniziative del
 Dipartimento per la Trasformazione Digitale.
 
-Ti informiamo che i dati personali raccolti potranno essere oggetto di
-comunicazione a soggetti, interni o esterni alla Presidenza del Consiglio dei
-Ministri, quali gli esperti nominati dal Dipartimento, nei confronti dei quali
-la comunicazione si configura come necessaria per il perseguimento della
-finalità sopra specificata, compresi soggetti terzi che forniscono un servizio
-al Titolare, ad esempio per la fornitura di servizi tecnologici e che
-tratteranno detti dati personali in qualità di responsabili del trattamento ai
-sensi e per gli effetti di cui all’articolo 28 del GDPR.
-
-Hai sempre diritto di chiedere l’accesso, la rettifica, la cancellazione e la
-portabilità dei tuoi dati; puoi adire il Garante per la protezione dei dati
-personali o l'autorità giudiziaria. Per maggiori informazioni o esercitare i
-tuoi diritti contatta il Titolare.
-
-### Cancellazione dalla mailing list
-
 Per non ricevere più l'aggiornamento puoi in ogni momento richiedere la
 cancellazione dal servizio selezionando l'apposito pulsante all'interno della
 comunicazione ricevuta oppure scrivendoci agli indirizzi sopra riportati.
