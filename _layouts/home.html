@@ -26,7 +26,7 @@ layout: default
           <mailing-list-subscribe
             text="{{ t.home_newsletter_footer | escape }}"
             args="{{ newsletterdata.args | jsonify | escape }}"
-            privacy="{{ site.data.footer_links.privacy[active_lang].url }}"
+            privacy="{{ site.data.footer_links.privacy[active_lang].url }}#mailing-list"
             lang="{{ active_lang }}"
           ></mailing-list-subscribe>
         </div>
