@@ -116,7 +116,7 @@ it:
     home_hero: Il punto di riferimento per il software della Pubblica Amministrazione
     home_hero_button: Scopri di più
     home_hero_buttonurl: '/it/come-lo-uso'
-    home_newsletter_footer: Non ti assilleremo con troppe email, parola di sviluppatori
+    home_newsletter_footer: Come te, anche noi lottiamo ogni giorno per l’obiettivo “Zero mail da leggere” (è dura). Per questo, promettiamo d’inviarti poche mail e di rispettare i tuoi dati
     home_platforms_title: Piattaforme
     home_platforms_viewall: Vedi tutte
     home_platforms_viewallurl: '/it/piattaforme'
@@ -131,7 +131,8 @@ it:
     home_news_expand: per saperne di più
     home_tags: Cerca per categoria
     home_tags_more: Altri filtri
-    newsletter_text: Iscriviti alla mailing list per ricevere aggiornamenti e novità. È una list a basso traffico (promesso!) che ti aiuterà a rimanere in contatto con noi.
+    # newsletter_text: Iscriviti alla mailing list per ricevere aggiornamenti e novità. È una list a basso traffico (promesso!) che ti aiuterà a rimanere in contatto con noi.
+    newsletter_text: Come te, anche noi lottiamo ogni giorno per l’obiettivo “Zero mail da leggere” (è dura). Per questo, promettiamo d’inviarti poche mail e di rispettare i tuoi dati
     website: Sito web
     go_to_website: Vai al sito web
 

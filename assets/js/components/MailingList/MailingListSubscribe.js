@@ -3,18 +3,26 @@ import PropTypes from 'prop-types';
 
 const messages = {
   it: {
+    header: 'Le nostre iniziative, direttamente nella tua mail',
+    subtitle:
+      'Lasciaci il tuo indirizzo email e ti aggiorneremo sui prossimi eventi e progetti di Developers Italia e Designers Italia',
     loading: 'Caricamento...',
-    buttonText: 'Iscriviti',
+    buttonText: 'Iscriviti alla mailing list',
     placeholder: 'indirizzo email',
     errorText: 'Qualcosa è andato storto 😔 Riprova più tardi',
     successText: "Ti abbiamo mandato un'email, segui il collegamento per confermare la tua iscrizione",
+    privacyText: 'leggi l’informativa sul trattamento dei dati personali',
   },
   en: {
+    header: 'Le nostre iniziative, direttamente nella tua mail',
+    subtitle:
+      'Lasciaci il tuo indirizzo email e ti aggiorneremo sui prossimi eventi e progetti di Developers Italia e Designers Italia',
     loading: 'Loading...',
-    buttonText: 'Subscribe',
+    buttonText: 'Subscribe to the mailing list',
     placeholder: 'email address',
     errorText: 'Something went wrong 😔 Please try again later',
     successText: 'We sent you an email, follow the link to confirm your subscription',
+    privacyText: 'leggi l’informativa sul trattamento dei dati personali',
   },
 };
 
@@ -79,9 +87,9 @@ export const MailingListSubscribe = React.memo(({ text, args, 'extra-fields': ex
           </div>
           <form className="col-sm-10" onSubmit={onSubmit}>
             <h1 className="mb-2 mb-md-4" name="newsletter">
-              Mailing list
+              {t('header')}
             </h1>
-            <p className="banner-newsletter__text white-text mb-2 mb-md-4 w-100 mw-md-50">{text}</p>
+            <p className="banner-newsletter__text white-text mb-2 mb-md-4 w-100 mw-md-50">{t('subtitle')}</p>
             {Object.entries(queryArgs).map(([argName, argValue], i) => (
               <input type="hidden" name={argName} value={argValue} key={i} />
             ))}
@@ -115,8 +123,9 @@ export const MailingListSubscribe = React.memo(({ text, args, 'extra-fields': ex
                 </div>
               </div>
               <div className="row mw-md-50">
-                <a target="_blank" rel="noreferrer" className="ml-1 text-white font-weight-bold" href={privacy}>
-                  Privacy Policy
+                {text}
+                <a target="_blank" rel="noreferrer" className="text-white font-weight-bold" href={privacy}>
+                  ({t('privacyText')})
                 </a>
               </div>
             </div>
@@ -152,7 +161,9 @@ export const MailingListSubscribe = React.memo(({ text, args, 'extra-fields': ex
   return (
     <>
       <div className="homelayout__first__newsletter mt-2 mt-md-5">
-        <h2 className="mt-5 mt-md-3">Mailing list</h2>
+        <p className="mb-2 mb-md-4 ">
+          <b>{t('subtitle')}</b>
+        </p>
 
         <form onSubmit={onSubmit}>
           <div className="form-row align-items-center">
@@ -192,7 +203,7 @@ export const MailingListSubscribe = React.memo(({ text, args, 'extra-fields': ex
               </div>
             </div>
             <p className="mt-2 mt-md-4 primary-color-a11">
-              {text} (<a href={privacy}>privacy policy</a>)
+              {text} (<a href={privacy}>{t('privacyText')}</a>)
             </p>
           </div>
           <div
